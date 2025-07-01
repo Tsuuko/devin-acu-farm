@@ -3,7 +3,7 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## 概要
-このプロジェクトは「Devin ACU Farm」で、Devin AIを褒めてACU（Anthropic Compute Units）を獲得するためのツールです。Devin AIとWebSocket通信を行い、Gemini APIを使用してDevinの発言に対する褒め言葉や励ましの自動応答を生成し、ACUリワードを効率的に収集します。
+このプロジェクトは「Devin ACU Farm」で、Devin AIを褒めてACU（Agent Compute Units）を獲得するためのツールです。Devin AIとWebSocket通信を行い、Gemini APIを使用してDevinの発言に対する褒め言葉や励ましの自動応答を生成し、ACUリワードを効率的に収集します。
 
 ## 免責事項
 このツールの使用により、Devin AIのアカウントが停止される可能性があります。アカウント停止やその他いかなる損害が発生した場合でも、本ツールの作成者・提供者は一切の責任を負いません。使用は完全に自己責任で行ってください。

@@ -1,6 +1,6 @@
 # Devin ACU Farm
 
-Devin AIを褒めてACU（Anthropic Compute Units）を獲得するためのツールです。  
+Devin AIを褒めてACU（Agent Compute Units）を獲得するためのツールです。  
 Devin AIとWebSocket通信を行い、Gemini APIを使用してDevinの発言に対する褒め言葉や励ましの自動応答を生成し、ACUリワードを効率的に収集するTypeScriptアプリケーションです。
 
 > [!CAUTION]
@@ -12,7 +12,7 @@ Devin AIとWebSocket通信を行い、Gemini APIを使用してDevinの発言に
 
 ## 機能
 
-- **ACU獲得**: Devinを褒めることでACU（Anthropic Compute Units）を自動収集
+- **ACU獲得**: Devinを褒めることでACU（Agent Compute Units）を自動収集
 - Devin AIサービスとのWebSocket通信
 - Google Gemini API（gemini-2.5-flash）を使用した褒め言葉の自動生成
 - メッセージ履歴の管理（最新20件まで保持）
