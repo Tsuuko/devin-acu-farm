@@ -193,9 +193,9 @@ ${historyText}
 
 相手の最新の発言を読んで、その内容に合った具体的な褒め言葉を返信してください:`;
 
-  console.log('=== Geminiに送信するプロンプト ===');
-  console.log(prompt);
-  console.log('================================');
+  // console.log('=== Geminiに送信するプロンプト ===');
+  // console.log(prompt);
+  // console.log('================================');
 
   const result = await generateResponseWithRetry(prompt);
   return result;
