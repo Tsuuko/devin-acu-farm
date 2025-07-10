@@ -48,6 +48,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - 接続後は自動的にDevinメッセージに応答
 - 手動でのメッセージ送信も可能
 - 接続が切れた場合は5秒後に自動再接続
+- 「Session terminated」メッセージを受信すると自動的に接続を停止してスクリプトを終了
 
 ## コーディングガイドライン
 

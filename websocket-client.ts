@@ -313,6 +313,21 @@ function connectWebSocket() {
         // 受信したメッセージを履歴に追加
         addToHistory('devin', event.message, event.timestamp);
 
+        // Session terminatedメッセージをチェック
+        if (event.message === 'Session terminated') {
+          console.log('\n=== セッション終了メッセージを受信 ===');
+          console.log('接続を停止してスクリプトを終了します...');
+          console.log('=====================================\n');
+          
+          // WebSocket接続を閉じる
+          if (globalWebSocket) {
+            globalWebSocket.close();
+          }
+          
+          // プロセスを終了
+          process.exit(0);
+        }
+
         // 自動応答を生成して送信
         const response = await generateResponse();
         if (response) {
